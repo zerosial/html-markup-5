@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>내비게이션 및 푸터 - 쿠팡(Coupang)</title>
+    <link rel="icon" href="./stylesheets/assets/favicon/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./stylesheets/main.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- 헤더 영역 -->
+      <!-- 대제목의 경우 "Coupang"으로 미리 마크업되어 있습니다. -->
+      <h1 class="sr-only">Coupang</h1>
+      <div class="header__inner">
+        <!-- 카테고리 버튼은 .header__inner 영역 안에 마크업 해주세요. -->
+        <button class="button--category fr12">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M30 6H0V0H30V6Z" fill="white" />
+            <path d="M30 18H0V12H30V18Z" fill="white" />
+            <path d="M0 30H30V24H0V30Z" fill="white" />
+          </svg>
+          카테고리
+        </button>
+      </div>
+    </header>
+
+    <nav class="navigation">
+      <!-- 내비게이션 영역 -->
+      <!-- 내비게이션 제목 -->
+      <h2>카테고리 메뉴</h2>
+      <div class="navigation__inner">
+        <!-- 카테고리별 내비게이션(메뉴) 영역 -->
+        <ul class="navigation__list fr12 d1">
+          <li>
+            <a role="button">
+              <i class="ic-clothes"></i>
+              패션의류/잡화
+            </a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">여성패션</a>
+                <ul class="navigation__list fr12 d3">
+                  <li><a href="/" role="button">의류</a></li>
+                  <li><a href="/" role="button">속옷/잠옷</a></li>
+                  <li><a href="/" role="button">신발</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/" role="button">남성패션</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/" role="button">유아동 패션</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a role="button"><i class="ic-beauty"></i>뷰티</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a role="button"><i class="ic-baby"></i>출산유아동</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a role="button"><i class="ic-foods"></i>식품</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-kitchenware"></i>주방용품</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-houseware"></i>생활용품</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-interior"></i>홈인테리어</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"
+              ><i class="ic-appliances"></i>가전디지털</a
+            >
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-sports"></i>스포츠</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-car"></i>자동차용품</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-book"></i>도서음반</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-toy"></i>완구취미</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"
+              ><i class="ic-stationery"></i>문구오피스</a
+            >
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-pet"></i>반려동물</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button"><i class="ic-travel"></i>여행티켓</a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" role="button">
+              <i class="ic-theme"> </i>
+              테마관
+              <img
+                class="new"
+                src="./stylesheets/assets/icon/new.svg"
+                alt="새 탭"
+              />
+            </a>
+            <ul class="navigation__list fr12 d2">
+              <li>
+                <a role="button">미구현</a>
+                <ul class="navigation__list fr12 d3">
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main">
+      <!-- 메인 콘텐츠 영역 -->
+      <!-- 해당 영역은 추가적인 마크업없이 비워놓아 주세요. -->
+    </main>
+
+    <footer class="footer">
+      <!-- 푸터 영역 -->
+      <!-- 푸터 관련 콘텐츠는 .footer 영역 안에 마크업 해주세요. -->
+      <div class="customer-guide">
+        <div class="customer-guide-list fr12">
+          <a href="/">인재채용</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">입점 / 제휴문의</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">공지사항</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">고객의 소리</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/" style="font-weight: 700">개인정보 처리방침</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">쿠팡페이 이용약관</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/" style="font-weight: 700">쿠팡페이 개인정보 처리방침</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">신뢰관리센터</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">제휴마케팅</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">광고안내</a>
+        </div>
+      </div>
+      <div class="coupang-information">
+        <div class="coupang-information-list">
+          <div class="coupang-information-logo">
+            <p>Coupang</p>
+          </div>
+          <div class="coupang-information-sales fr16">
+            <p>상호명 및 호스팅 서비스 제공 : 쿠팡(주)</p>
+            <p>대표이사: 강한승, 박대준</p>
+            <p>서울시 송파구 송파대로 570</p>
+            <p>사업자 등록번호 : 120-88-00767</p>
+            <p>통신판매업신고 : 2017-서울송파-0680</p>
+          </div>
+          <div class="coupang-information-center fr16">
+            <p>
+              <span style="font-weight: 700">365고객센터</span>
+              <span class="divider" aria-hidden="true">ㅣ</span>
+              <span>전자금융거래분쟁처리담당</span>
+            </p>
+            <a class="telephone" href="tel:1577-7011">1577-7011</a>
+            <p>서울시 송파구 송파대로 570</p>
+            <a href="mailto:help@coupang.com?subject=문의사항"
+              >email : help@coupang.com</a
+            >
+          </div>
+          <div class="coupang-information-guarantee fr16">
+            <p style="font-weight: 700">우리은행 채무지급보증 안내</p>
+            <p>
+              당사는 고객님이 현금 결제한 금액에 대해<br />우리은행과
+              채무지급보증 계약을 체결하여<br />안전거래를 보장하고 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-sns">
+        <div class="copyright-sns-group">
+          <div class="copyright">
+            사이버몰 내 판매되는 상품 중에는 쿠팡에 등록한 개별 판매자가
+            판매하는 마켓플레이스(오픈마켓) 상품이 포함되어 있습니다.<br />
+            마켓플레이스(오픈마켓) 상품의 경우 쿠팡은 통신판매중개자이며
+            통신판매의 당사자가 아닙니다.<br />
+            쿠팡은 마켓플레이스(오픈마켓) 상품, 거래정보 및 거래 등에 대하여
+            책임을 지지 않습니다.<br />
+            쿠팡은 소비자 보호와 안전거래를 위해
+            신뢰관리센터(CM112@coupang.com)를 운영하고 있으며, 관련 분쟁이
+            발생할 경우 별도의 분쟁처리절차에 의거 분쟁이 처리됩니다.<br />
+            Copyright ⓒ Coupang Corp. 2010-2020 All Right Reserved.
+          </div>
+          <div class="sns-icon">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="./stylesheets/assets/icon/sns-facebook.svg"
+                alt="Facebook"
+            /></a>
+            <a
+              href="https://section.blog.naver.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="./stylesheets/assets/icon/sns-naver-blog.svg"
+                alt="Naver Blog"
+            /></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="./stylesheets/assets/icon/sns-instagram.svg"
+                alt="Instagram"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
